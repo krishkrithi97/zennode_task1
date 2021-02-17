@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Login
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body class="bodyloginregister">
+<!-- javascript function to give alert.. -->
+		<script>
+  		function alertDetails()
+			{
+    		alert("Enter the details!!!");
+  		}
+  	</script> <!-- Function ends here.. -->
+
+<!-- Main content starts here.. -->
+		<div class="login-div-animation">
+			<div class="container" id="container">
+				<div class="form-container sign-up-container">
+				</div>
+				<div class="form-container sign-in-container">
+<!-- Form for login page.. -->
+					<form action="#" class="form">
+						<h1 class="header1">Login</h1><br>
+<!-- social media icons.. -->
+						<div class="social-container">
+							<a href="#" class="fa fa-facebook"></a>
+							<a href="#" class="fa fa-twitter"></a>
+						</div><br>
+						<span>or use your account</span>
+
+
+						<input type="email" name="email" class="input" id="email" placeholder="Email">
+						<input type="password" name="password" class="input" id="pass" placeholder="Password">
+						<p><strong>New User?<a href="register.html" class="underline" >Register</a></strong></p>
+
+						<button class="button" onclick="alertDetails()">Log In</button>	<!-- alertDetails() is called on button click.. -->
+					</form>
+
+				</div> <!-- Main content ends here.. -->
+<!-- Here comes the split screen which shows no contents.. -->
+				<div class="overlay-container">
+					<div class="overlay">
+						<div class="overlay-panel overlay-left">
+						</div>
+					</div>
+				</div>
+<!-- split screen code ends here.. -->
+			</div>
+		</div>
+
+	</body>
+</html>
