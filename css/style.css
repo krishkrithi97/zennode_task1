@@ -254,3 +254,8 @@ a {
 	height: 40px;
 	width: 40px;
 }
+.error_form {
+	font-size: 15px;
+	font-family: Arial;
+	color: #FF0052;
+}
